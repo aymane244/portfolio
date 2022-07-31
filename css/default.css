@@ -1,6 +1,11 @@
 body{
     font-family: "Roboto Cn",sans-serif;
 }
+.div-background{
+    background-image: url("../images/web.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
 .div-background-2{
     background-color: rgba(73, 36, 36, 0.7);
 }
@@ -29,7 +34,11 @@ a{
     font-size: x-large;
     padding-bottom: 15px;
 }
-
+button{
+    width:12%;
+    height:55px;
+    margin-top: 12px;
+}
 .img-transition{
     transition: 1s;
 }
@@ -53,6 +62,7 @@ a{
     .text-padding{
         padding-bottom: 27px;
     }
+}
 @media only screen and (max-width: 1007px) {
     .text-padding{
         padding-bottom: 54px;
