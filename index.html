@@ -2,11 +2,19 @@
 <html>
     <head>
         <title>My Portfolio</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <meta name="veiwport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/portfolio.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            .div-background{
+                background-image: url("images/web.jpg");
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+            }
+        </style>
     </head>
     <body>
         <div class="div-background" id="accueil">
@@ -47,14 +55,14 @@
                 <br><br><br>
             </div>
         </div>
-        <div class="container-fluid mt-5 ">
+        <div class="container-fluid mt-5">
             <div class="text-background">
                 <h1 class="text-center pb-3 text-rotation" id="services">My services</h1>
             </div>
             <hr class="hr-border w-50">
-            <div class="container-fluid pt-2 px-lg-5 px-xl-5">
+            <div class="container-fluid pt-2">
                 <div class="row p-size-2 justify-content-center">
-                    <div class="col-md-5 mt-3 div-background-3 py-3 mr-md-3">
+                    <div class="col-md-5 mt-3 div-background-3 py-3 mr-md-3 col-sm-12">
                         <div class="text-center">
                             <h3 class="text-primary">Front-end development</h3>
                             <img src="images/Static.png" class="img-fluid img-thumbnail mt-4 mb-2 img-transition" alt="Static website">
@@ -71,7 +79,7 @@
                             <li class="pt-3 mx-3">Cost savings from utilizing cloud storage.</li>
                         </ul>
                     </div>
-                    <div class="col-md-5 mt-3 div-background-3 py-3">
+                    <div class="col-md-5 mt-3 div-background-3 py-3 col-sm-12">
                         <div class="text-center">
                             <h3 class="text-primary">Back-end development</h3>
                             <img src="images/Dynamic.png" class="img-fluid img-thumbnail mt-4 mb-2 img-transition" alt="Dynamic Website">
@@ -110,39 +118,24 @@
                 <h1 class="text-center pb-3 text-rotation" id="services">My Projects</h1>
             </div>
             <hr class="hr-border w-50">
-            <div class="container-fluid pt-2 px-lg-5 px-xl-5">
+            <div class="container-fluid pt-2">
                 <div class="row p-size-2 justify-content-center">
-                    <div class="col-md-5 mt-3 div-background-3 py-3 mr-md-3">
+                    <div class="col-md-3 mt-3 div-background-3 py-3 col-sm-12">
                         <div class="text-center">
-                            <h3 class="text-primary ">Trainee management and service reservation</h3>
+                            <h3 class="text-primary mb-3">Trainee management and service reservation</h3>
+                            <br>
                             <img src="images/trainee.png" class="img-fluid img-thumbnail mt-4 mb-2 img-transition" alt="ARTL logo">
                         </div>
                         <p class="mt-4 mx-3 text-justify">
                             The prupose of the website is to manage trainees in different training fields and users can make reservation for different services.
                         </p>
                         <hr>
-                        <p class="mx-3"><strong>The website:</strong></p>
-                        <ul>
-                            <li class="mx-3">Give you an overall view on the Academy services.</li>
-                            <li class="pt-3 mx-3">The user can make reservation easily without inscription.</li>
-                            <li class="pt-3 mx-3">The user can comment on news articles.</li>
-                            <li class="pt-3 mx-3">Inscription page for student filling all the neccesary fields.</li>
-                            <li class="pt-3 mx-3">
-                                Student space where he can observe his progess in training, his grades and it allows him to demande documents
-                                from the administration.
-                            </li>
-                            <li class="pt-3 mx-3">Admin pages where he can add, update and delete all the neccery elements.</li>
-                            <li class="pt-3 mx-3">Admin can add grades to trainees.</li>
-                            <li class="pt-3 mx-3">Admin can note absence.</li>
-                            <li class="pt-3 mx-3">Admin can download files uploaded by trainees either single file or as zip file.</li>
-                            <li class="pt-3 mx-3">Admin dashboard where he can have an overall view on his services performance.</li>
-                        </ul>
-                        <h3 class="mt-3 text-center">Not hosted yet, link: </h3>
-                        <a href="https://github.com/aymane244/ARTLN" target="_blank" class="text-center" rel="noopener noreferrer"><h4> HERE</h4></a>
+                        <h4 class="text-center"><strong>Link:</strong></h4>
+                        <a href="http://artl-nord.42web.io/" target="_blank" class="text-center" rel="noopener noreferrer"><h4>Here</h4></a>
                     </div>
-                    <div class="col-md-5 mt-3 div-background-3 py-3">
+                    <div class="col-md-3 mt-3 div-background-3 py-3 mx-lg-3 col-sm-12">
                         <div class="text-center">
-                            <h3 class="text-primary">Property management (personal project)</h3>
+                            <h3 class="text-primary">Property management -Real estate company- (personal project)</h3>
                             <img src="images/real-estate.png" class="img-fluid img-thumbnail mt-4 mb-2 img-transition" alt="Real estate">
                         </div>
                         <p class="text-justify mt-4 mx-3">
@@ -150,61 +143,24 @@
                             different parties.
                         </p>
                         <hr>
-                        <p class="mx-3"><strong>The website</strong></p>
-                        <ul>
-                            <li class="mx-3">The user can make an appointment with the agent.</li>
-                            <li class="pt-3 mx-3">Agent page where he has an overall view on the sells and complaints.</li>
-                            <li class="pt-3 mx-3">Agent can Have an overall view on clients informations and can add update delete them.</li>
-                            <li class="pt-3 mx-3">Agent can add a purchase for a client and update purchases in case of payment.</li>
-                            <li class="pt-3 mx-3">Agent can have an overall view on appointments.</li>
-                            <li class="pt-3 mx-3">Client page where he can see the detail of his purchase.</li>
-                            <li class="pt-3 mx-3">Client can demand an advise from the notary about a propety as well send him documents.</li>
-                            <li class="pt-3 mx-3">Notary page where he can have an overall view on advice demands and documents sent by clients.</li>
-                            <li class="pt-3 mx-3">Notary can send advise to clients.</li>
-                            <li class="pt-3 mx-3">Real estate company page where they can add update and delete propreties.</li>
-                            <li class="pt-3 mx-3">Admin page where he has an overall view on all users.</li>
-                            <li class="pt-3 mx-3">Top Admin can add update, delete any user.</li>
-                            <li class="pt-3 mx-3">Top admin has the right to change other admins roles.</li>
-                        </ul>
-                        <h3 class="mt-3 text-center">Not hosted, link:</h3>
-                        <a href="https://github.com/aymane244/gestion-immobliere" target="_blank" class="text-center" rel="noopener noreferrer"><h4>HERE</h4></a>
+                        <h4 class="text-center"><strong>Not Hosted:</strong></h4>
+                        <a href="https://github.com/aymane244/gestion-immobliere" target="_blank" class="text-center" rel="noopener noreferrer"><h4>github Here</h4></a>
                     </div>
-                    <div class="col-md-10 py-3">
-                        <div class="row justify-content-center">
-                            <div class="col-md-5 mr-3 div-background-3 py-3">
-                                <div class="text-center mt-3">
-                                    <h3 class="text-primary">Corporate-Influencers gathering (personal project)</h3>
-                                    <img src="images/chat.png" class="img-fluid img-thumbnail mt-4 mb-2 img-transition" alt="chat application">
-                                </div>
-                                <p class="mt-4 mx-3 text-justify">
-                                    The purpose of the website is to elaborate a contract between influencers and corporations.
-                                </p>
-                            </div>
-                            <div class="col-md-5 div-background-3 py-3">
-                                <p class="mx-3 mt-3"><strong>The website</strong></p>
-                                <ul>
-                                    <li class="mx-3">Allow the influencer to have a global view on all the registred corporations.</li>
-                                    <li class="pt-3 mx-3">Influencer can update his profile.</li>
-                                    <li class="pt-3 mx-3">Influencer can start a conversation with any corpopration he likes.</li>
-                                    <li class="pt-3 mx-3">Influencer can have an overall view on his contract.</li>
-                                    <li class="pt-3 mx-3">Influencer can demande a corporation to be deleted to the admin.</li>
-                                    <li class="pt-3 mx-3">The corporation have a global view on all registred influencers.</li>
-                                    <li class="pt-3 mx-3">The corporation can update it profile.</li>
-                                    <li class="pt-3 mx-3">The corporation can start conversation with any influencer it likes.</li>
-                                    <li class="pt-3 mx-3">The corporation can elaborate a contract with an influencer.</li>
-                                    <li class="pt-3 mx-3">The corporation have an overall view on all it's contracts.</li>
-                                    <li class="pt-3 mx-3">The corporation can terminate contract or update it.</li>
-                                    <li class="pt-3 mx-3">Admin page where he have an overall view on all the users.</li>
-                                    <li class="pt-3 mx-3">Admin can update his profile.</li>
-                                    <li class="pt-3 mx-3">Admin can delete users in demand.</li>
-                                </ul>
-                                <h3 class="mt-3 text-center">Not hosted, link:</h3>
-                                <a href="https://github.com/aymane244/influencer-brand" target="_blank" class="text-center" rel="noopener noreferrer"><h4>HERE</h4></a>
-                            </div>
+                    <div class="col-md-3 mt-3 div-background-3 py-3 col-sm-12">
+                        <div class="text-center">
+                            <h3 class="text-primary">Corporate-Influencers gathering (personal project)</h3>
+                            <img src="images/talk.png" class="img-fluid img-thumbnail mt-4 mb-2 img-transition" alt="chat application">
                         </div>
+                        <p class="mt-4 mx-3 text-justify">
+                            The purpose of the website is have a platforme to gather infleuncers and corporates who wants to elaborate a 
+                            contract between them.
+                        </p>
+                        <hr>
+                        <h4 class="text-center"><strong>Link:</strong></h4>
+                        <a href="http://ecole.epizy.com/" target="_blank" class="text-center" rel="noopener noreferrer"><h4>Here</h4></a>
                     </div>
                 </div>
-            </div>               
+            </div>              
             <div class="text-background mt-5">
                 <h1 class="text-center pb-3 text-rotation" id="skills">My skills</h1>
             </div>
@@ -213,46 +169,36 @@
             <div class="skills slider pt-4">
                 <div class="slide">
                     <img src="images/HTML.png" class="img-fluid mx-auto w-50" alt="HTML logo">
-                    <p class="text-center size">HTML</p>
                 </div>
                 <div class="slide">
                     <img src="images/CSS.png" class="img-fluid mx-auto w-50" alt="CSS logo">
-                    <p class="text-center size">CSS</p>
                 </div>
                 <div class="slide">
                     <img src="images/Javascript.png" class="img-fluid mx-auto w-50" alt="Javascript logo">
-                    <p class="text-center size">Javascript</p>
                 </div>
                 <div class="slide">
                     <img src="images/JQuery.png" class="img-fluid mx-auto w-50" alt="JQuery logo">
-                    <p class="text-center size">JQuery</p>
                 </div>
                 <div class="slide">
                     <img src="images/Ajax.png" class="img-fluid mx-auto w-50" alt="Ajax logo">
-                    <p class="text-center size">Ajax</p>
                 </div>
                 <div class="slide">
                     <img src="images/Bootstrap.png" class="img-fluid mx-auto w-50" alt="Bootstrap logo">
-                    <p class="text-center size">Bootstrap</p>
                 </div>
                 <div class="slide">
                     <img src="images/Photoshop.png" class="img-fluid mx-auto w-50" alt="Photoshop logo">
-                    <p class="text-center size">Photoshop</p>
                 </div>
-                <div class="slide"><img src="images/Java.png" class="img-fluid mx-auto w-50" alt="Java logo">
-                    <p class="text-center size">Java</p>
+                <div class="slide">
+                    <img src="images/Java.png" class="img-fluid mx-auto w-50" alt="Java logo">
                 </div>
                 <div class="slide">
                     <img src="images/PHP.png" class="img-fluid mx-auto w-50" alt="PHP logo">
-                    <p class="text-center size">PHP</p>
                 </div>
                 <div class="slide">
                     <img src="images/laravel.png" class="img-fluid mx-auto w-50" alt="Laravel logo">
-                    <p class="text-center size">Laravel</p>
                 </div>
                 <div class="slide">
                     <img src="images/MySQL.png" class="img-fluid mx-auto w-50" alt="MySQL logo">
-                    <p class="text-center size">MySQL</p>
                 </div>
             </div>
             <hr>
@@ -260,12 +206,6 @@
                 <p><strong>Front-end development :</strong></p>
                 <div class="progress mt-2 ml-5">
                     <span class="progress-bar" style="width:60%"></span>
-                </div>
-            </div>
-            <div class="d-flex justify-content-center">
-                <p><strong>Back-end development :</strong></p>
-                <div class="progress mt-2" style="margin-left: 51px;">
-                    <span class="progress-bar w-75"></span>
                 </div>
             </div>
             <div class="d-flex justify-content-center">
@@ -278,6 +218,12 @@
                 <p><strong>Marketing digital :</strong></p>
                 <div class="progress mt-2" style="margin-left: 99px;">
                     <span class="progress-bar w-25"></span>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <p><strong>Back-end development :</strong></p>
+                <div class="progress mt-2" style="margin-left: 51px;">
+                    <span class="progress-bar w-75"></span>
                 </div>
             </div>
         </div>

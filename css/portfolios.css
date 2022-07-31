@@ -29,11 +29,7 @@ a{
     font-size: x-large;
     padding-bottom: 15px;
 }
-button{
-    width:12%;
-    height:55px;
-    margin-top: 12px;
-}
+
 .img-transition{
     transition: 1s;
 }
